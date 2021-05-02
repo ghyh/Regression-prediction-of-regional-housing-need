@@ -43,17 +43,11 @@ error (MSE).
 
 <h2>Result</h2>
 **Correlation Pairs**
-![image](https://user-images.githubusercontent.com/30448897/116797827-df217a80-aa9e-11eb-91cf-d382a201e352.png)
 **Trend of coefficients with lambda in the lasso model**
-![lasso_feature_selection](https://user-images.githubusercontent.com/30448897/116797870-08420b00-aa9f-11eb-8b27-fb17ebb1d7e9.png)
 **Regression Tree of RHNA**
-![regression_tree_original](https://user-images.githubusercontent.com/30448897/116797884-24de4300-aa9f-11eb-9b16-424bffe664f5.png)
 **Best Subset Selection by Comparing Error**
-![subset_error_comparison](https://user-images.githubusercontent.com/30448897/116797902-4fc89700-aa9f-11eb-8104-29c585a3ac24.png)
-**Cross-validation between the numbers of component in PCR**
-![pcrMSEP](https://user-images.githubusercontent.com/30448897/116797920-83a3bc80-aa9f-11eb-96c8-e3d2de3da9af.png)
+**Cross-validation between the numbers of component in PCR **
 **Fitting Results of the Features in GAM**
-![gamFitting_orig](https://user-images.githubusercontent.com/30448897/116797931-99b17d00-aa9f-11eb-8770-9e154da4992c.png)
 
 <h2>Conclusion</h2>
   From the test MSE listed in the table below, one can see that GAM has the best performance,
