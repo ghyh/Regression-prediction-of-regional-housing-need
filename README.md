@@ -1,6 +1,6 @@
-#ML Model for Prediction of Regional Housing Needs Assessment in Southern California#
+# ML Model for Prediction of Regional Housing Needs Assessment in Southern California
 
-##Introduction##
+## Introduction
 Having an affordable and livable dwelling is one of the essential needs in everybody’s life.
 Beginning in 1969, it’s required by California law[1] that every local government (city and county)
 has a plan and periodical evaluation[2] to ensure that the number of housing fulfills each community’s
@@ -29,7 +29,7 @@ Therefore, there is a need of a simpler and more straightforward model for easie
 and inference of the data. This report is trying to apply various machine learning (ML) models to the
 available data set, and provide a simpler formulation of the problem.
 
-<h2>Machine Learning Models</h2>
+## Machine Learning Models
   The nature of this problem is a supervised regression problem, so the following regression
 models are picked for this report.
 • Lasso Model
@@ -41,15 +41,27 @@ models are picked for this report.
 as training set while the rest serves as the test set. The test set is used for computing test mean squared
 error (MSE).
 
-##Result##
+## Result
 **Correlation Pairs**
-**Trend of coefficients with lambda in the lasso model**
-**Regression Tree of RHNA**
-**Best Subset Selection by Comparing Error**
-**Cross-validation between the numbers of component in PCR **
-**Fitting Results of the Features in GAM**
+![image](https://user-images.githubusercontent.com/30448897/116798263-ac798100-aaa2-11eb-9bff-60f082ef1aad.png)
 
-##Conclusion##
+**Trend of coefficients with lambda in the lasso model**
+![lasso_feature_selection](https://user-images.githubusercontent.com/30448897/116798238-6ae8d600-aaa2-11eb-928e-d1ee5596eaff.png)
+
+**Regression Tree of RHNA**
+![regression_tree_original](https://user-images.githubusercontent.com/30448897/116798240-7a681f00-aaa2-11eb-88b1-5f9e86262c0a.png)
+
+**Best Subset Selection by Comparing Error**
+![subset_error_comparison](https://user-images.githubusercontent.com/30448897/116798242-83f18700-aaa2-11eb-8eca-33e68adf2a78.png)
+
+**Cross-validation between the numbers of component in PCR**
+![pcrMSEP](https://user-images.githubusercontent.com/30448897/116798245-8c49c200-aaa2-11eb-995e-1f670853e91c.png)
+
+**Fitting Results of the Features in GAM**
+![gamFitting_orig](https://user-images.githubusercontent.com/30448897/116798246-8fdd4900-aaa2-11eb-9e36-65e64d09b68a.png)
+
+
+## Conclusion
   From the test MSE listed in the table below, one can see that GAM has the best performance,
 followed by multiple linear regression (using the features selected by best subset selection). The
 models of regression trees don’t perform as well as other regression models, as the earlier paragraph
@@ -65,7 +77,7 @@ the most suitable model for this problem, especially due to its low test MSE[4].
 |Multiple Linear Regression|2.91e6|2.39e6|
 |Generalized Additive Model (GAM)|6.56e5|1.72e6|
 
-###Reference###
+### Reference
 [1] “HCD State Housing Law Program Laws and Regulations.” https://hcd.ca.gov/building-standards/state-housing-law/state-housing-laws-regulations.shtml   
 [2] “Regional Housing Needs Assessment,” Southern California Association of Governments. https://scag.ca.gov/rhna.   
 [3] “HCD Regional Housing Needs Allocation and Housing Elements.” https://www.hcd.ca.gov/community-development/housing-element/index.shtml.   
