@@ -70,13 +70,8 @@ the most suitable model for this problem, especially due to its low test MSE[4].
 |Generalized Additive Model (GAM)|6.56e5|1.72e6|
 
 <h2>Reference</h2>
-[1] “HCD State Housing Law Program Laws and Regulations.”
-https://hcd.ca.gov/building-standards/state-housing-law/state-housing-laws-regulations.shtml
-(accessed Mar. 13, 2021).
-[2] “Regional Housing Needs Assessment,” Southern California Association of Governments.
-https://scag.ca.gov/rhna (accessed Feb. 21, 2021).
-[3] “HCD Regional Housing Needs Allocation and Housing Elements.”
-https://www.hcd.ca.gov/community-development/housing-element/index.shtml (accessed Feb. 20,
-2021).
+[1] “HCD State Housing Law Program Laws and Regulations.” https://hcd.ca.gov/building-standards/state-housing-law/state-housing-laws-regulations.shtml  
+[2] “Regional Housing Needs Assessment,” Southern California Association of Governments. https://scag.ca.gov/rhna.  
+[3] “HCD Regional Housing Needs Allocation and Housing Elements.” https://www.hcd.ca.gov/community-development/housing-element/index.shtml.  
 [4] G. James, D. Witten, T. Hastie, and R. Tibshirani, An Introduction to Statistical Learning: with
 Applications in R. Springer New York, 2013.
