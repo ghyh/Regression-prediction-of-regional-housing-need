@@ -1,6 +1,6 @@
-<h1>ML Model for Prediction of Regional Housing Needs Assessment in Southern California</h1>
+#ML Model for Prediction of Regional Housing Needs Assessment in Southern California#
 
-<h2>Introduction</h2>
+##Introduction##
 Having an affordable and livable dwelling is one of the essential needs in everybody’s life.
 Beginning in 1969, it’s required by California law[1] that every local government (city and county)
 has a plan and periodical evaluation[2] to ensure that the number of housing fulfills each community’s
@@ -41,7 +41,7 @@ models are picked for this report.
 as training set while the rest serves as the test set. The test set is used for computing test mean squared
 error (MSE).
 
-<h2>Result</h2>
+##Result##
 **Correlation Pairs**
 **Trend of coefficients with lambda in the lasso model**
 **Regression Tree of RHNA**
@@ -49,7 +49,7 @@ error (MSE).
 **Cross-validation between the numbers of component in PCR **
 **Fitting Results of the Features in GAM**
 
-<h2>Conclusion</h2>
+##Conclusion##
   From the test MSE listed in the table below, one can see that GAM has the best performance,
 followed by multiple linear regression (using the features selected by best subset selection). The
 models of regression trees don’t perform as well as other regression models, as the earlier paragraph
@@ -65,7 +65,7 @@ the most suitable model for this problem, especially due to its low test MSE[4].
 |Multiple Linear Regression|2.91e6|2.39e6|
 |Generalized Additive Model (GAM)|6.56e5|1.72e6|
 
-<h3>Reference</h3>
+###Reference###
 [1] “HCD State Housing Law Program Laws and Regulations.” https://hcd.ca.gov/building-standards/state-housing-law/state-housing-laws-regulations.shtml   
 [2] “Regional Housing Needs Assessment,” Southern California Association of Governments. https://scag.ca.gov/rhna.   
 [3] “HCD Regional Housing Needs Allocation and Housing Elements.” https://www.hcd.ca.gov/community-development/housing-element/index.shtml.   
