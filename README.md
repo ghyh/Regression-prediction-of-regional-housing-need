@@ -32,11 +32,11 @@ available data set, and provide a simpler formulation of the problem.
 ## Machine Learning Models
   The nature of this problem is a supervised regression problem, so the following regression
 models are picked for this report.
-• Lasso Model
-• Regression Tree (plus random forests)
-• Principal Component Regression (PCR)
-• Linear Regression (plus Best Subset Selection)
-• Generalized Additive Model (GAM)
+• Lasso Model   
+• Regression Tree (plus random forests)    
+• Principal Component Regression (PCR)   
+• Linear Regression (plus Best Subset Selection)   
+• Generalized Additive Model (GAM)   
   For each model, the same randomly-selected data set, which contains 4/5 of total data points, are used
 as training set while the rest serves as the test set. The test set is used for computing test mean squared
 error (MSE).
